@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithila Samaj Bikash Manch | MSBM</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Background Animation */
+@keyframes backgroundMove {
+    0% {
+        background-color: #f4f4f4;
+    }
+    50% {
+        background-color: #ecf0f1;
+    }
+    100% {
+        background-color: #f4f4f4;
+    }
+}
+
+body {
+    animation: backgroundMove 5s infinite;
+}
+/* Container Styling */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 3em;
+    color: #e74c3c;
+    animation: slideIn 1.5s ease-out;
+}
+
+/* Slide-in Animation */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.5s;
+}
+
+/* Pulse Animation for Link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #3498db;
+    text-decoration: none;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>!!!!404!!!</h1>
+        <p>Website under construction!</p>
+        <p>The page you are looking for is under maintenance!</p>
+        <br>
+        <a href="mailto:admin@msbm.org.np">Send us a message</a>    
+    </div>
+</body>
+</html>
